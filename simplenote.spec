@@ -6,7 +6,7 @@ Summary:        Simplenote.com desktop client
 License:        GPLv2
 URL:            https://simplenote.com/downloads/
 Source0:        https://github.com/Automattic/simplenote-electron/archive/v%{version}.tar.gz
-Source1:        config.js
+Source1:        config.json
 #Patch0:         remove-react-popover.patch
 
 ExclusiveArch: x86_64
