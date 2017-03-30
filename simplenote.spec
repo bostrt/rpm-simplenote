@@ -56,3 +56,6 @@ mv $RPM_BUILD_ROOT%{_datadir}/simplenote/Simplenote $RPM_BUILD_ROOT%{_datadir}/s
 %{_datadir}/simplenote/
 
 %changelog
+* Wed Mar 29 2017 Robert Bost 1.0.8-1
+- new package built with tito
+
