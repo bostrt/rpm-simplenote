@@ -9,8 +9,6 @@ Source0:        https://github.com/Automattic/simplenote-electron/archive/v%{ver
 Source1:        config.json
 #Patch0:         remove-react-popover.patch
 
-ExclusiveArch: x86_64
-
 %global __requires_exclude ^libffmpeg.*$
 %global __requires_exclude %__requires_exclude|^libgcrypt.*$
 %global __requires_exclude %__requires_exclude|^libnode.*$
